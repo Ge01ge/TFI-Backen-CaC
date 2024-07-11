@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /*background: linear-gradient(to bottom right, #121212, #1f4068);*/
+    background-image: url('../uploads/fondo-pared-ladrillo-grunge_1048-11975.jpg');
+  background-size: cover; /* Esto hace que la imagen cubra todo el contenedor */
+  background-position: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(12, 12, 12, 0.5); /* Fondo verde para el formulario */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(46, 204, 113, 0.8), /* Sombra verde */
+                0 0 20px rgba(46, 204, 113, 0.6), /* Sombra más suave */
+                0 0 30px rgba(46, 204, 113, 0.4); /* Sombra más tenue */
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out; /* Transición suave */
+}
+
+form:hover {
+    transform: scale(1.05); /* Escala ligeramente en hover */
+    box-shadow: 0 0 20px rgba(46, 204, 113, 1), /* Sombra más intensa en hover */
+                0 0 40px rgba(46, 204, 113, 0.8), /* Sombra aún más intensa */
+                0 0 60px rgba(46, 204, 113, 0.6); /* Sombra máxima en hover */
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="file"],
+form button {
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente para inputs y botones */
+}
+
+form button[type="submit"] {
+    background-color: #008CBA;
+    width: 45%;
+}
+
+button[type="button"] {
+    /*background-color: #c71585; /* Color fucsia medio apagado */
+    background-color: #d02090; /* Color fucsia más brillante en hover */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px; /* Margen derecho para separarlo del botón de submit */
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    width: 28%;
+}
+.button1{
+    background-color: #008CBA; /* Color fucsia más brillante en hover */
+    color: white;
+}
+
+.delete {
+    background-color: #d02090;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.update {
+    background-color: #008CBA;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hidden {
+    display: none;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    background-color: rgba(12, 12, 12, 0.5);
+    /*background-color: #2ecc71;  Color de fondo verde */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(46, 204, 113, 0.8), /* Sombra verde */
+                0 0 20px rgba(46, 204, 113, 0.6), /* Sombra más suave */
+                0 0 30px rgba(46, 204, 113, 0.4); /* Sombra más tenue */
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out; /* Transición suave */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Escala ligeramente en hover */
+    box-shadow: 0 0 20px rgba(46, 204, 113, 1), /* Sombra más intensa en hover */
+                0 0 40px rgba(46, 204, 113, 0.8), /* Sombra aún más intensa */
+                0 0 60px rgba(46, 204, 113, 0.6); /* Sombra máxima en hover */
+}
+
+.card img {
+    width: 50%; /* Ocupa todo el ancho disponible */
+    height: 40%;
+    border-radius: 10px; /* Borde redondeado */
+}
+
+.borde-neon {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(46, 204, 113, 0.8), /* Sombra verde */
+                0 0 20px rgba(46, 204, 113, 0.6), /* Sombra más suave */
+                0 0 30px rgba(46, 204, 113, 0.4); /* Sombra más tenue */
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out; /* Transición suave */
+}
+
+
+
+
